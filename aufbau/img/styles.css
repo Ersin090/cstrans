@@ -1,0 +1,50 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(200, 200, 200);
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.header {
+    background-image: url("./img/logo2.png");
+    height: 203px;
+    background-size: cover;
+
+}
+
+.container {
+    width: 750px;
+    margin-top: 28px;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-right: auto;
+    padding: 15px;
+    border: 2px solid #ef3825;
+    background-color: rgb(255, 255, 255);
+}
+
+.aufbau {
+    text-align: center;
+    color: #ef3825;
+}
+
+.information {
+    text-align: center;
+    color: grey;
+}
+
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.kontakt {
+    text-align: center;
+}
+

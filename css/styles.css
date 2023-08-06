@@ -1,0 +1,247 @@
+body {
+    /*    font-family: "Helvetica Neue", Helvetica, sans-serif;*/
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F5F5;
+}
+
+/***** Header *****/
+
+.header {
+    /* Balken */
+    background-color: #006790;
+    width: auto;
+}
+
+.header p {
+    /* Schrift und Symbol */
+    color: #FFFFFF;
+    padding-top: 17px;
+    float: left;
+}
+
+.header a {
+    /* Hyperlinkdesign */
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header a:hover {
+    /* Hyperlinkdesign Mausanzeige */
+    color: #000000;
+    -webkit-transition: color 1000ms linear;
+    -ms-transition: color 1000ms linear;
+    transition: color 1000ms linear;
+}
+
+.header-style ul {
+    border-left: 1px solid #fff;
+}
+
+.header-style ul li {
+    display: inline-block;
+    border-right: 1px solid #fff;
+    color: #fff;
+    padding: 16px 16px 16px;
+}
+
+.divider {
+border-top: 1px solid #FFFFFF;
+width: 250%;
+display: none;
+margin: 0 -100px;
+padding: 4px 100px;
+}
+
+/***** CST Logo *****/
+
+.banner {
+    width: 360px;
+    height: 102px;
+    float: left;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+/***** Navigation *****/
+
+
+.navi {
+    width: auto;
+    height: auto;
+    background-color: #FFFFFF;
+    margin-top: -36px;
+}
+
+.navi a {
+    /* Hyperlinkdesign */
+    color: #006790;
+    text-decoration: none;
+}
+
+.navi li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+/***** Main Bereich *****/
+
+.main {
+    margin-top: 40px;
+}
+
+/***** Index *****/
+
+.services {
+    text-align: center;
+}
+
+/***** Dienstleistungen *****/
+
+.icon {
+    display: inline-block;
+    text-align: center;
+}
+
+.icon i {
+    /* Symbole */
+    font-size: 180%;
+}
+
+.icon i:hover {
+    color: #006790;
+    font-size: 250%;
+    -webkit-transition: font-size, 250ms linear;
+    -ms-transition: font-size 250ms linear;
+    transition: font-size 250ms linear;
+}
+
+/***** Über uns *****/
+
+.links, .rechts {
+    width: 197px;
+    height: 167px;
+}
+
+.unten {
+    width: 400px;
+    height: 167px;
+
+} 
+/***** Responsive Navigation *****/
+
+/* Trigger */
+
+#side-menu-trigger {
+    display: none;
+    float: right;
+    color: #006790;
+    margin-top: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 200%;
+    height: inherit;
+}
+
+/* Menü */
+
+.side-menu {
+    background-color: #F5F5F5;
+    padding-top: 15px;
+}
+
+.side-menu h3 {
+    padding-left: 15px;
+}
+
+.side-menu a {
+    color: #006790;
+    text-decoration: none;
+    display: block;
+    padding-left: 15px;
+}
+
+.side-menu-navigation {
+    list-style-type: none;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.side-menu-navigation li {
+    border-top: 1px solid rgb(220, 220, 220);
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Mobile first queries */
+
+/***** Über uns Bilder *****/
+
+@media (max-width: 479px) {
+    .unten {
+        width: 314px;
+        height: 209px;
+    }
+    .links, .rechts {
+        width: 154px;
+        height: 131px;
+    }
+}
+
+/***** Responsive Navi *****/
+
+@media (max-width: 1099px) {
+    #side-menu-trigger {
+        display: block;
+    }
+    .navi li {
+        display: none;
+    }
+}
+
+/***** Responsive Header *****/
+
+@media (max-width: 587px) {
+    .header ul {
+        text-align: center;
+    }
+    .header-style ul {
+        border-left: none;
+    }
+    .header-style ul li {
+        display: inline-block;
+        border-right: none;
+        color: #fff;
+        padding: 16px 16px 16px;
+    }
+
+    .divider {
+        display: block;
+    }
+}
+
+/***** Responsiv Banner + Trigger *****/
+
+@media (max-width: 500px) {
+    .banner {
+        width: 280px;
+        height: 80px;
+    }
+    #side-menu-trigger {
+        font-size: 100%;
+        margin-top: 27px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .navi {
+        padding-bottom: 1px;
+        height: 97px;
+    }
+
+}

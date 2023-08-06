@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Capa & Söhne Transport | Über uns</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./css/skeleton.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="./css/lightbox.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+<body>
+
+    <!-- Responsive Navigation -->
+
+    <div class="side-menu" style="display: none;">
+        <ul class="side-menu-navigation">
+            <h3>Navigation</h3>
+            <li><a href="index.html">Startseite</a></li>
+            <li> <a href="uber-uns.html">Über uns</a></li>
+            <li><a href="dienstleistungen.html">Dienstleistungen</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+
+        </ul>
+    </div>
+    <!-- Header Bereich -->
+
+    <header class="header">
+        <div class="container">
+            <div class="header-style">
+                <ul>
+                    <li><i class="fas fa-phone"></i><a href="tel:+4915165230702"> +49(0)151 / 652 30 702</a></li>
+                    <div class="divider"></div>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@cunds-trans.de">info@cunds-trans.de</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+        <!-- Logo + Navigation Bereich-->
+        <nav class="navi">
+            <div class="container">
+                <div class="logo">
+                    <a href=index.html> <img src="images/logo1.png" alt="Capa & Söhne Transport" class="banner" /></a>
+                    <button id="side-menu-trigger"><i class="fas fa-bars"></i></button>
+                    <div class="cl-effect-5">
+                        <ul>
+                            <li><a href="index.html"><span data-hover="Startseite">Startseite</span></a></li>
+                            <li> <a href="uber-uns.html"><span data-hover="Über uns">Über uns</span></a></li>
+                            <li><a href="dienstleistungen.html"><span data-hover="Dienstleistungen">Dienstleistungen</span></a></li>
+                            <li><a href="impressum.html"><span data-hover="Impressum">Impressum</span></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+    </header>
+    </nav>
+
+    <!-- Über uns -->
+    <br />
+
+    <div class="container main">
+        <div class="row">
+            <div class="one-half column">
+                <a href="./images/links.jpg" rel="lightbox[Foto]" title="Foto 1"><img src="./images/links.jpg" class="links" /></a>
+                <a href="./images/rechts.jpg" rel="lightbox[Foto]" title="Foto 2"><img src="./images/rechts.jpg" class="rechts" /></a>
+                <a href="./images/unten.jpg" rel="lightbox[Foto]" title="Foto 3"><img src="./images/unten.jpg" class="unten" /></a>
+
+            </div>
+            <div class="one-half column">
+                <p class="story">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, minima magnam eaque facilis modi
+                    fuga nemo
+                    dolorem omnis. Architecto, saepe quae. Nemo perspiciatis expedita quae asperiores cupiditate sed
+                    cum
+                    praesentium corrupti deleniti magnam, sapiente quia quo ipsum ducimus cumque repellendus obcaecati
+                    totam
+                    dolorum vero iure minus, libero, error officiis. Dolores?</p>
+            </div>
+        </div>
+    </div>
+    <script src="./js/lightbox-plus-jquery.js"></script>
+    <script type="text/javascript" src="./js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="./js/jquery.jpanelmenu.js"></script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            var jPM = $.jPanelMenu({
+                menu: '.side-menu',
+                trigger: '#side-menu-trigger',
+                direction: 'right'
+            });
+            jPM.on();
+        });
+    </script>
+
+</body>
+
+</html>

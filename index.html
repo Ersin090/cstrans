@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Capa & Söhne Transport | Startseite</title>
+
+
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./css/skeleton.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/navigation.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+<body>
+
+    <!-- Responsive Navigation -->
+
+    <div class="side-menu" style="display: none;">
+        <ul class="side-menu-navigation">
+            <h3>Navigation</h3>
+            <li><a href="index.html">Startseite</a></li>
+            <li> <a href="uber-uns.html">Über uns</a></li>
+            <li><a href="dienstleistungen.html">Dienstleistungen</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+
+        </ul>
+    </div>
+    <!-- Header Bereich -->
+
+    <header class="header">
+        <div class="container">
+            <div class="header-style">
+                <ul>
+                    <li><i class="fas fa-phone"></i><a href="tel:+4915165230702"> +49(0)151 / 652 30 702</a></li>
+                    <div class="divider"></div> 
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@cunds-trans.de">info@cunds-trans.de</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+        <!-- Logo + Navigation Bereich-->
+        <nav class="navi">
+            <div class="container">
+                <div class="logo">
+                    <a href=index.html> <img src="images/logo1.png" alt="Capa & Söhne Transport" class="banner" /></a>
+                    <button id="side-menu-trigger"><i class="fas fa-bars"></i></button>
+                    <div class="cl-effect-5">
+                        <ul>
+                            <li><a href="index.html"><span data-hover="Startseite">Startseite</span></a></li>
+                            <li> <a href="uber-uns.html"><span data-hover="Über uns">Über uns</span></a></li>
+                            <li><a href="dienstleistungen.html"><span data-hover="Dienstleistungen">Dienstleistungen</span></a></li>
+                            <li><a href="impressum.html"><span data-hover="Impressum">Impressum</span></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+    </header>
+    </nav>
+
+    <!-- Index -->
+    <div class="container main">
+
+        <h4>Willkommen!</h4>
+
+        <div class="row">
+            <div class="seven columns">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolor consectetur quis doloremque
+                    delectus? Adipisci saepe doloribus harum cum corporis dolorum quis qui sint, dolore commodi cumque
+                    quidem alias vel natus dolores. Cupiditate dolor quo cumque id eum alias incidunt veniam. Totam
+                    ullam, quod perferendis dignissimos libero exercitationem suscipit error!</p>
+   
+            </div>
+
+            <div class="five columns">
+                <div class="services">
+                    <div class="one-half column">
+                        <i class="fas fa-shuttle-van" , style="font-size: 200%"></i>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+
+                    <div class="one-half column">
+                        <i class="fas fa-clock" , style="font-size: 200%"></i>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+
+                    <div class="one-half column" , style="margin-left: -0px">
+                        <i class="fas fa-thumbs-up" , style="font-size: 200%"></i>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+
+                    <div class="one-half column">
+                        <i class="fas fa-headset" , style="font-size: 200%"></i>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Download Button -->
+
+        <a class="button button-primary" href="https://ersink.ocloud.de/index.php/s/HfPzcPYIR2qrK0j/download">Website
+            runterladen</a> (09.10.2018: responsive Navigation eingefügt)
+
+        <!-- Download Button -->
+    </div>
+    </div>
+
+    <script type="text/javascript" src="./js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="./js/jquery.jpanelmenu.js"></script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            var jPM = $.jPanelMenu({
+                menu: '.side-menu',
+                trigger: '#side-menu-trigger',
+                direction: 'right'
+            });
+            jPM.on();
+            $(".side-menu a").click(function () {
+                jPM.close;
+            });
+        });
+    </script>
+
+</body>
+
+</html>
