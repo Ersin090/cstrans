@@ -35,6 +35,7 @@
                     <li><a href="index.php"><span data-hover="Startseite">Startseite</span></a></li>
                     <li> <a href="uber-uns.php"><span data-hover="Über uns">Über uns</span></a></li>
                     <li><a href="dienstleistungen.php"><span data-hover="Dienstleistungen">Dienstleistungen</span></a></li>
+                    <li><a href="referenzen.php"><span data-hover="Referenzen">Referenzen</span></a></li>
                     <li><a href="impressum.php"><span data-hover="Impressum">Impressum</span></a></li>
                 </ul>
             </div>
